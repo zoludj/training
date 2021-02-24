@@ -1,0 +1,394 @@
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 686px;
+  height: 316px;
+  left: 0px;
+  top: 0px;
+
+  /* Global/07. Light */
+  border: 3px solid #f8f9fa;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.form-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+
+  position: static;
+  width: 638px;
+  height: 36px;
+  left: 0px;
+  top: 32px;
+
+  /* Global/09. White */
+  background: #ffffff;
+
+  /* Components/Forms/Input border */
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.Second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 686px;
+  height: 510px;
+  left: 0px;
+  top: 332px;
+
+  /* Global/07. Light */
+  border: 3px solid #f8f9fa;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.form-range {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 135px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  /* Global/01. Primary */
+  background: #007bff;
+  border-radius: 4px;
+  position: static;
+  width: 255px;
+  height: 8px;
+  left: 24px;
+  top: 414px;
+
+  background: #efefef;
+  border: 1px solid #b2b2b2;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.mb-32 {
+    position: static;
+width: 255px;
+height: 36px;
+left: 24px;
+top: 362px;
+
+/* Components/Forms/Input border */
+border: 1px solid #CED4DA;
+box-sizing: border-box;
+border-radius: 4px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 16px;
+}
+.buttonFile {
+    position: static;
+    width: 255px;
+    height: 36px;
+    left: 24px;
+    top: 362px;
+    
+    /* Components/Forms/Input border */
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+.browse {
+    background: #E9ECEF;
+box-shadow: -1px 0px 0px #CED4DA;
+border-radius: 0px 4px 4px 0px;
+
+}
+.area {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 255px;
+height: 174px;
+left: 24px;
+top: 132px;
+
+border-radius: 4.8px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+.form-control-area {
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+
+position: static;
+width: 255px;
+height: 118px;
+left: 0px;
+top: 32px;
+
+/* Global/09. White */
+background: #FFFFFF;
+
+/* Components/Forms/Input border */
+border: 1px solid #CED4DA;
+box-sizing: border-box;
+border-radius: 4.8px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+position: static;
+width: 223px;
+height: 90px;
+left: 16px;
+top: 8px;
+
+/* Components/Buttons/Large */
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+
+/* or 150% */
+display: flex;
+align-items: center;
+
+/* Text/02. Muted */
+color: #6C757D;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.MessageSecond { 
+    position: static;
+width: 255px;
+height: 20px;
+left: 0px;
+top: 4px;
+
+/* Body/Small */
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12.8px;
+line-height: 19px;
+
+/* identical to box height, or 150% */
+
+/* Global/02. Secondary */
+color: #6C757D;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.formSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    
+    position: static;
+    width: 255px;
+    height: 36px;
+    left: 0px;
+    top: 32px;
+    
+    /* Global/09. White */
+    background: #FFFFFF;
+    
+    /* Components/Forms/Input border */
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.Message {
+    position: static;
+width: 255px;
+height: 20px;
+left: 0px;
+top: 4px;
+
+/* Body/Small */
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12.8px;
+line-height: 19px;
+
+/* identical to box height, or 150% */
+
+/* Global/02. Secondary */
+color: #6C757D;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.Label {
+    position: static;
+width: 255px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Body/Paragraph */
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height, or 150% */
+
+/* Text/01. Body */
+color: #212529;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.lab-el {
+    position: static;
+width: 255px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Body/Paragraph */
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height, or 150% */
+
+/* Text/01. Body */
+color: #212529;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.special {
+    position: static;
+    width: 686px;
+    height: 650px;
+    left: 40px;
+    top: 922px;
+    
+    background: #FFFFFF;
+    
+    /* Shadow / Regular */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+.invalid {
+    position: absolute;
+height: 36px;
+left: 0px;
+right: 0px;
+top: 32px;
+
+/* Background / White */
+background: #FFFFFF;
+
+/* Background / Danger */
+border: 1px solid #DC3545;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.city {
+    position: absolute;
+width: 289px;
+height: 84px;
+left: calc(50% - 289px/2 - 174.5px);
+top: calc(50% - 84px/2 + 17px);
+}
